@@ -31,6 +31,7 @@ export default {
       this.todos.unshift({
         id: Util.fakeId(), desc: this.add, date: new Date(), completed: false
       });
+      this.add = '';
     }
   }
 }
