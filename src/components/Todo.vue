@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-     <div className="todo">
+     <div class="todo">
        <h1>TODO list</h1>
        <input type="text" v-model="add">
        <button v-on:click="handleAdd">Add</button>
